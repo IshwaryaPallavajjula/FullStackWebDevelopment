@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <header>
+        <h1>Welcome to the HTML Tags Example</h1>
+        <nav>
+            <ul>
+                <li><a href="#section1">Section 1</a></li>
+                <li><a href="#section2">Section 2</a></li>
+                <li><a href="#section3">Section 3</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content section -->
+    <main>
+        <!-- Section 1: Text formatting -->
+        <section id="section1">
+            <h2>Section 1: Text Formatting</h2>
+            <p>This is a <strong>strong</strong> text and this is <em>emphasized</em>.</p>
+            <p>Here is a <a href="https://www.example.com" target="_blank">link</a> to another website.</p>
+            <p>For <code>code</code> snippets, use the <code>&lt;code&gt;</code> tag.</p>
+            <blockquote cite="https://www.example.com">
+                This is a blockquote with a citation.
+            </blockquote>
+            <p>This is a <del>deleted</del> text and <ins>inserted</ins> text.</p>
+        </section>
+
+        <!-- Section 2: Lists -->
+        <section id="section2">
+            <h2>Section 2: Lists</h2>
+            <h3>Unordered List</h3>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+
+            <h3>Ordered List</h3>
+            <ol>
+                <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+            </ol>
+        </section>
+
+        <!-- Section 3: Table -->
+        <section id="section3">
+            <h2>Section 3: Tables</h2>
+            <table border="1">
+                <caption>Sample Table</caption>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>City</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>30</td>
+                        <td>New York</td>
+                    </tr>
+                    <tr>
+                        <td>Alice</td>
+                        <td>25</td>
+                        <td>Los Angeles</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Section 4: Forms -->
+        <section>
+            <h2>Section 4: Forms</h2>
+            <form action="/submit" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea>
+                <br>
+
+                <label for="subscribe">Subscribe to newsletter:</label>
+                <input type="checkbox" id="subscribe" name="subscribe" checked>
+                <br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+        <!-- Section 5: Multimedia -->
+        <section>
+            <h2>Section 5: Multimedia</h2>
+            <h3>Image Example</h3>
+            <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+
+            <h3>Video Example</h3>
+            <video width="320" height="240" controls>
+                <source src="movie.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <h3>Audio Example</h3>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <!-- Section 6: Other HTML Tags -->
+        <section>
+            <h2>Section 6: Other HTML Tags</h2>
+            <h3>Definition List</h3>
+            <dl>
+                <dt>HTML</dt>
+                <dd>A markup language for structuring content on the web.</dd>
+                <dt>CSS</dt>
+                <dd>A style sheet language used for describing the presentation of a document written in HTML.</dd>
+            </dl>
+
+            <h3>Preformatted Text</h3>
+            <pre>
+    This is preformatted text.
+    It maintains spaces and line breaks.
+            </pre>
+
+            <h3>Abbreviation</h3>
+            <p>The <abbr title="HyperText Markup Language">HTML</abbr> is a standard language used to create web pages.</p>
+
+            <h3>Address</h3>
+            <address>
+                Written by John Doe.<br>
+                Email: <a href="mailto:john.doe@example.com">john.doe@example.com</a>
+            </address>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 HTML Tags Example</p>
+    </footer>
+
+</body>
+</html>
